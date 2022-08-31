@@ -1,0 +1,50 @@
+*{
+  block-size: border-box;
+  padding: 0;
+  margin: 0;
+
+}
+.Toastify__toast-container {
+  width: auto !important;
+  /* background: #B18437 !important;
+  color: #fff !important; */
+}
+@media (max-width: 600px) {
+  .Toastify__toast-container {
+    width: 100% !important;
+    /* background: #000 !important;
+    color: #fff !important; */
+  }
+}
+.app{
+  /* background-image: url("./imgs/NFTKing.png");
+  background-repeat: no-repeat;
+  background-position: top center; */
+  overflow: none;
+
+}
+/* .button{
+  background: rgba(255, 255, 255, 0.17);
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(0.7px);
+-webkit-backdrop-filter: blur(0.7px);
+border: 1px solid rgba(255, 255, 255, 0.3);
+
+
+} */
+.button:hover {
+  box-shadow: 0 0 12px rgba(70, 150, 240, 0.7) inset;
+  /* border: 1px solid rgba(255, 255, 255, 1); */
+  color: rgba(255, 255, 255, 1);
+  transition: all 0.5s;
+}
+
+@media screen and (max-width: 480px) {
+  .app{
+    /* background-image: url("./imgs/NFTKing.png"); */
+    /* background-repeat: no-repeat; */
+    background-position: center;
+  
+  }
+}
